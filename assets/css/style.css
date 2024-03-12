@@ -935,18 +935,53 @@ header .navbar ul li a:hover {
 /* experience section ends */
 
 /* contact section starts */
-.contact {
+/* .contact {
   background: #e5ecfb;
   min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+
+} */
+
+.contact {
+  background: #e5ecfb;
+  min-height: 100vh; /* Adjust the height as necessary */
+  display: flex;
+  flex-direction: column; /* This stacks children vertically */
+  align-items: center; /* This centers children horizontally */
+  justify-content: center; /* This centers children vertically */
+  padding: 4rem 0;
 }
-.contact .container {
+
+/* .contact .container {
   max-width: 1050px;
   width: 100%;
   background: #fff;
   border-radius: 1.5rem;
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+} */
+.contact .container {
+  width: 100%; /* Full width */
+  max-width: 800px; /* Maximum width of the container */
+  margin: auto; /* This centers the container */
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: 10px; /* Optional: for rounded corners */
+  margin: auto; /* This will center the container */
+
 }
+
+.contact .container iframe {
+  width: 100%; /* Full width */
+  height: 800px; /* Adjust height as needed */
+
+  border: none; /* Removes the border */
+}
+
 .contact .container .content {
   display: flex;
   align-items: center;
@@ -1184,6 +1219,9 @@ form .button-area {
   }
 }
 @media (max-width: 450px) {
+  .contact .container {
+    width: 90%;
+  }
   .footer .box-container .box {
     margin: 1.5rem;
   }
@@ -1226,4 +1264,4 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
+
