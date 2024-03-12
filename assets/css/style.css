@@ -934,17 +934,6 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
-/* contact section starts */
-/* .contact {
-  background: #e5ecfb;
-  min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 0;
-
-} */
-
 .contact {
   background: #e5ecfb;
   min-height: 100vh; /* Adjust the height as necessary */
@@ -955,14 +944,6 @@ header .navbar ul li a:hover {
   padding: 4rem 0;
 }
 
-/* .contact .container {
-  max-width: 1050px;
-  width: 100%;
-  background: #fff;
-  border-radius: 1.5rem;
-  margin: 2rem 5rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-} */
 .contact .container {
   width: 100%; /* Full width */
   max-width: 800px; /* Maximum width of the container */
@@ -1264,3 +1245,4 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+
