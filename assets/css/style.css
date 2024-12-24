@@ -95,9 +95,18 @@ header .logo {
 header .logo i {
   font-size: 2.2rem;
 }
+
 header .logo:hover {
   color: #fc8c05;
 }
+
+.logo-initials {
+  width: 35px;  /* Adjust the width to a smaller size */
+  height: 30px; /* Adjust the height to a smaller size */
+  margin-right: 10px;  /* Space between logo and full name */
+  vertical-align: middle;  /* Align the logo with the text */
+}
+
 header .navbar ul {
   list-style: none;
   display: flex;
